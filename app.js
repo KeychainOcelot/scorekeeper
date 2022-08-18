@@ -37,7 +37,7 @@ p2Button.addEventListener('click', () => {
 resetButton.addEventListener('click', reset);
 
 winningScoreSelect.addEventListener('change', () => {
-    alert(this.value);
+    winningScore = parseInt(winningScoreSelect.value);
     reset();
 });
 
